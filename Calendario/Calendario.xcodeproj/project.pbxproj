@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41A51962442E1F100380368 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A51952442E1F100380368 /* MonthView.swift */; };
+		D41A51982442E4F600380368 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A51972442E4F600380368 /* NameView.swift */; };
 		D4609401243ED8210054C86C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4609400243ED8210054C86C /* AppDelegate.swift */; };
 		D4609403243ED8210054C86C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4609402243ED8210054C86C /* SceneDelegate.swift */; };
 		D4609405243ED8210054C86C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4609404243ED8210054C86C /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D41A51952442E1F100380368 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		D41A51972442E4F600380368 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
 		D46093FD243ED8210054C86C /* Calendario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4609400243ED8210054C86C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4609402243ED8210054C86C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				D4609402243ED8210054C86C /* SceneDelegate.swift */,
 				D4609404243ED8210054C86C /* ContentView.swift */,
 				D4609414243ED8B90054C86C /* CardView.swift */,
+				D41A51952442E1F100380368 /* MonthView.swift */,
+				D41A51972442E4F600380368 /* NameView.swift */,
 				D4609406243ED8240054C86C /* Assets.xcassets */,
 				D460940B243ED8240054C86C /* LaunchScreen.storyboard */,
 				D460940E243ED8240054C86C /* Info.plist */,
@@ -150,9 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4609401243ED8210054C86C /* AppDelegate.swift in Sources */,
+				D41A51962442E1F100380368 /* MonthView.swift in Sources */,
 				D4609403243ED8210054C86C /* SceneDelegate.swift in Sources */,
 				D4609415243ED8B90054C86C /* CardView.swift in Sources */,
 				D4609405243ED8210054C86C /* ContentView.swift in Sources */,
+				D41A51982442E4F600380368 /* NameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

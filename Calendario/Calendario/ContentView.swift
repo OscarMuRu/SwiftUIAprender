@@ -11,10 +11,28 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView{
-
             VStack {
-                HStack {
-                    CardView(imageName: "cake", authorName: "Cumpleañero del día:", courseTitle: "Oscar Muñoz", originalPrice: "Deseale un muy feliz cumpleaños.")
+                VStack {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            CardView(imageName: "cake", authorName: "Cumpleañero del día:", courseTitle: "Oscar Muñoz", originalPrice: "Deseale un muy feliz cumpleaños.")
+                            
+                            CardView(imageName: "cake", authorName: "Cumpleañero del día:", courseTitle: "Estebancito", originalPrice: "Deseale un muy feliz cumpleaños.")
+                            
+                            CardView(imageName: "cake", authorName: "Cumpleañero del día:", courseTitle: "Bob Dylan", originalPrice: "Deseale un muy feliz cumpleaños.")
+                        }
+                    }
+                }
+                VStack {
+                    MonthView(month: "Enero")
+                        .padding(.top, 50)
+                        .padding(.bottom, 15)
+                    
+                    NameView(name: "Luis Ricardo")
+                    NameView(name: "Luis Ricardo")
+                    NameView(name: "Luis Ricardo")
+                    NameView(name: "Luis Ricardo")
+                    NameView(name: "Luis Ricardo")
                 }
             }
         }
